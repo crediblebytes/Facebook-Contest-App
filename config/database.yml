@@ -15,8 +15,16 @@ test:
   pool: 5
   timeout: 5000
 
-production:
-  adapter: sqlite3
-  database: db/production.sqlite3
-  pool: 5
-  timeout: 5000
+#production:
+#  adapter: sqlite3
+#  database: db/production.sqlite3
+#  pool: 5
+#  timeout: 5000
+adapter: mysql
+   encoding: utf8
+   reconnect: false
+   database: pagedonc_fbapp 
+   pool: 5
+   username: pagedonc_fbapp
+   password: .XomxKZ2OTG9
+   host: localhost
