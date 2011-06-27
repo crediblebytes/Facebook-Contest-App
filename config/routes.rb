@@ -1,5 +1,6 @@
 Fbapp::Application.routes.draw do
-
+  get "search/index"
+  get "home/index"
 
 
   match '/search', :to => "search#index"
